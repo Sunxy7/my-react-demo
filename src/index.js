@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoList from './pages/todo';
-import Router from './router';
+// import TodoList from './pages/todo';
+import RouterConfig from './router/index';
 
 ReactDOM.render(
     <React.StrictMode>
-        <TodoList />
+        <RouterConfig />
     </React.StrictMode>,
     document.getElementById('root')
 );
